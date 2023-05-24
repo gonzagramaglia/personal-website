@@ -49,7 +49,7 @@ const About = () => {
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
         I am a web developer from Argentina, currently living in Córdoba, 
-        who loves challenging projects and wants to keep 
+        who loves <br/>challenging projects and wants to keep 
         leveling up his coding skills
       </motion.p>
 
