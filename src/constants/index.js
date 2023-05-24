@@ -4,6 +4,7 @@ import {
     typescript,
     html,
     chatgpt,
+    vscode,
     css,
     reactjs,
     tailwind,
@@ -81,6 +82,10 @@ import {
     {
       name: "ChatGPT",
       icon: chatgpt,
+    },
+    {
+      name: "VSCode",
+      icon: vscode,
     },
     {
       name: "Tailwind CSS",
