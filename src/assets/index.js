@@ -23,9 +23,9 @@ import threejs from "./tech/threejs.svg";
 import scrimba from "./company/scrimba.png";
 import freecodecamp from "./company/freecodecamp.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import notesapp from "./notesapp.png";
+import memesgenerator from "./memesgenerator.png";
+import gymtracker from "./gymtracker.png";
 
 export {
   logo,
@@ -50,7 +50,7 @@ export {
   threejs,
   scrimba,
   freecodecamp,
-  carrent,
-  jobit,
-  tripguide,
+  notesapp,
+  memesgenerator,
+  gymtracker,
 };

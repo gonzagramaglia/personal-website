@@ -15,9 +15,9 @@ import {
     next,
     scrimba,
     freecodecamp,
-    carrent,
-    jobit,
-    tripguide,
+    notesapp,
+    memesgenerator,
+    gymtracker,
     threejs,
   } from "../assets";
   
@@ -29,6 +29,10 @@ import {
     {
       id: "skills",
       title: "Skills",
+    },
+    {
+      id: "works",
+      title: "Works",
     },
     {
       id: "contact",
@@ -184,30 +188,26 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Notes App",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Web application that allows users to add, modify and delete notes. It uses a Firebase database to store the data.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "firebase",
           color: "green-text-gradient",
         },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
       ],
-      image: carrent,
+      image: notesapp,
       source_code_link: "https://github.com/",
     },
     {
-      name: "Job IT",
+      name: "Meme Generator",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Web application that allows users to create memes calling an api, receiving templates and writing text over them.",
       tags: [
         {
           name: "react",
@@ -217,33 +217,25 @@ import {
           name: "restapi",
           color: "green-text-gradient",
         },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
       ],
-      image: jobit,
+      image: memesgenerator,
       source_code_link: "https://github.com/",
     },
     {
-      name: "Trip Guide",
+      name: "Gym Tracker",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Web application that allows users to keep track of the progress of their gym routines. It's my first React creation built from scratch.",
       tags: [
         {
-          name: "nextjs",
+          name: "react",
           color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
         },
         {
           name: "css",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
+      image: gymtracker,
       source_code_link: "https://github.com/",
     },
   ];
