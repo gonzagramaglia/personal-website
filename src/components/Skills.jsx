@@ -61,7 +61,7 @@ const Skills = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={`${styles.sectionSubText} text-center`}>
-          What I have done so far
+          What I have done <span className="font-bold">so far</span>
         </p>
         <h2 className={`${styles.sectionHeadText} text-center`}>
           Skills unlocked
