@@ -3,11 +3,25 @@ import { Link } from 'react-router-dom';
 
 import { styles } from '../styles';
 import { navLinks } from '../constants';
-import { logo, menu, close } from '../assets';
+import { logo, nologo, menu, close } from '../assets';
  
 const Navbar = () => {
   const [active, setActive] = useState("")
   const [toggle, setToggle] = useState(false)
+  const [showLogo, setShowLogo] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const logoPosition = window.innerHeight * 0.26;
+      setShowLogo(window.pageYOffset > logoPosition);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
 
   return (
     <nav 
@@ -21,7 +35,12 @@ const Navbar = () => {
             setActive("");
             window.scrollTo(0,0);
           }}>
-          <img src={logo} alt="logo" className='w-20 h-20 object-contain'/>
+          <div className={`transition-opacity duration-500 ${showLogo ? 'opacity-100' : 'opacity-0'}`}>
+            {showLogo
+              ? <img src={logo} alt="logo" className='w-60 h-20 object-contain'/> 
+              : <img src={nologo} alt="nologo" className='w-60 h-20 object-contain'/> 
+            }
+          </div>
         </Link>
         <ul className='list-none hidden sm:flex flex-row gap-10'>
           {navLinks.map( link => (
