@@ -8,13 +8,11 @@ import {
     html,
     css,
     reactjs,
-    redux,
     tailwind,
-    nodejs,
-    mongodb,
+    firebase,
     git,
     figma,
-    docker,
+    next,
     scrimba,
     freecodecamp,
     carrent,
@@ -79,20 +77,12 @@ import {
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
       name: "Tailwind CSS",
       icon: tailwind,
     },
     {
-      name: "Node JS",
-      icon: nodejs,
-    },
-    {
-      name: "MongoDB",
-      icon: mongodb,
+      name: "Next JS",
+      icon: next,
     },
     {
       name: "Three JS",
@@ -103,12 +93,12 @@ import {
       icon: git,
     },
     {
-      name: "figma",
+      name: "Figma",
       icon: figma,
     },
     {
-      name: "docker",
-      icon: docker,
+      name: "Firebase",
+      icon: firebase,
     },
   ];
   
