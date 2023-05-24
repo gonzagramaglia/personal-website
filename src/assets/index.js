@@ -8,6 +8,7 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
+import chatgpt from "./tech/chatgpt.png"
 import css from "./tech/css.png";
 import firebase from "./tech/firebase.png";
 import figma from "./tech/figma.png";
@@ -37,6 +38,7 @@ export {
   github,
   menu,
   close,
+  chatgpt,
   css,
   firebase,
   figma,
