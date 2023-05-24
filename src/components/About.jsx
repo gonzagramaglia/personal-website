@@ -48,9 +48,9 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I am a web developer from Argentina, currently living in Córdoba 
+        I am a web developer from Argentina, currently living in Córdoba, 
         who loves challenging projects and wants to keep 
-        leveling up his coding and teamwork skills
+        leveling up his coding skills
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
