@@ -21,9 +21,9 @@ const ProjectCard = ({
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
       <Tilt
         options={{
-          max: 45,
-          scale: 1,
-          speed: 450,
+          max: 20,
+          scale: 0.95,
+          speed: 100,
         }}
         className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'
       >
@@ -51,11 +51,11 @@ const ProjectCard = ({
           </div>
         </div>
 
-        <div className='mt-5'>
-          <h3 
-            onClick={() => window.open(live_demo_link, "_blank")}
-            className='cursor-pointer text-white font-bold text-[24px]'
-          >{name}</h3>
+        <div 
+          onClick={() => window.open(live_demo_link, "_blank")}
+          className='cursor-pointer mt-5'
+        >
+          <h3 className='text-white font-bold text-[24px]'>{name}</h3>
           <p className='mt-2 text-secondary text-[14px]'>{description}</p>
         </div>
 
