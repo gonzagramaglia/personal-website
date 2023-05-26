@@ -87,12 +87,12 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className='mt-3 text-secondary text-[17px] leading-[30px]'
         >
-          Each project is briefly described with links to github repositories 
+          Each project is briefly described with links to github repositories <br/>
           and live demos in it.
         </motion.p>
       </div>
 
-      <div className='text-left mt-20 flex flex-wrap gap-7'>
+      <div className='text-left mt-20 flex flex-wrap gap-7 justify-center'>
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}

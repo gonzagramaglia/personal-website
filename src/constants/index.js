@@ -42,7 +42,7 @@ import {
   
   const services = [
     {
-      title: "Frontend Developer",
+      title: "Web Developer",
       icon: gem
     },
     {
@@ -50,13 +50,9 @@ import {
       icon: gem
     },
     {
-      title: "Web Developer",
+      title: "Frontend Developer",
       icon: gem
-    },
-    {
-      title: "UX Developer",
-      icon: gem
-    },
+    }
   ];
   
   const technologies = [
