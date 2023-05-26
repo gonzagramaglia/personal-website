@@ -186,43 +186,7 @@ const projects = [
       image: notes,
       live_demo_link: "https://notes.gonza.uno/",
       source_code_link: "https://github.com/gonzagramaglia/notes",
-    },
-    {
-      name: "Meme Generator",
-      description:
-        "Web application that allows users to create memes calling an api, receiving templates and writing text over them.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-      ],
-      image: memesgenerator,
-      live_demo_link: "https://gonza.uno/",
-      source_code_link: "https://github.com/gonzagramaglia",
-    },
-    {
-      name: "Gym Tracker",
-      description:
-        "Web application that allows users to keep track of the progress of their gym routines. It's my first React creation built from scratch.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "css",
-          color: "green-text-gradient",
-        },
-      ],
-      image: gymtracker,
-      live_demo_link: "https://gonza.uno/",
-      source_code_link: "https://github.com/gonzagramaglia",
-    },
+    }
   ];
   
   export { services, technologies, skills, projects };
