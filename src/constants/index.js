@@ -14,7 +14,7 @@ import {
     next,
     scrimba,
     freecodecamp,
-    notesapp,
+    notes,
     memesgenerator,
     gymtracker,
     threejs,
@@ -168,21 +168,22 @@ import {
 
 const projects = [
     {
-      name: "Notes App",
+      name: "Notes",
       description:
-        "Web application that allows users to add, modify and delete notes. It uses a Firebase database to store the data.",
+        "Web application that allows users to add, modify and delete notes. It uses a localStorage to store the data.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "firebase",
-          color: "green-text-gradient",
+          name: "hooks",
+          color: "pink-text-gradient",
         },
       ],
-      image: notesapp,
-      source_code_link: "https://github.com/",
+      image: notes,
+      live_demo_link: "https://notes.gonza.uno/",
+      source_code_link: "https://github.com/gonzagramaglia/notes",
     },
     {
       name: "Meme Generator",
@@ -199,6 +200,7 @@ const projects = [
         },
       ],
       image: memesgenerator,
+      live_demo_link: "https://gonza.uno/",
       source_code_link: "https://github.com/",
     },
     {
@@ -216,6 +218,7 @@ const projects = [
         },
       ],
       image: gymtracker,
+      live_demo_link: "https://gonza.uno/",
       source_code_link: "https://github.com/",
     },
   ];

@@ -22,7 +22,7 @@ import threejs from "./tech/threejs.svg";
 import scrimba from "./company/scrimba.png";
 import freecodecamp from "./company/freecodecamp.png";
 
-import notesapp from "./notesapp.png";
+import notes from "./notes.png";
 import memesgenerator from "./memesgenerator.png";
 import gymtracker from "./gymtracker.png";
 
@@ -48,7 +48,7 @@ export {
   threejs,
   scrimba,
   freecodecamp,
-  notesapp,
+  notes,
   memesgenerator,
   gymtracker,
 };
