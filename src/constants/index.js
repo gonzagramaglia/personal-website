@@ -170,7 +170,7 @@ const projects = [
     {
       name: "Notes",
       description:
-        "Web application that allows users to add, modify and delete notes. It uses a localStorage to store the data.",
+        "Web application that allows users to add, modify and delete notes. It uses a localStorage to save the data.",
       tags: [
         {
           name: "react",
@@ -178,7 +178,7 @@ const projects = [
         },
         {
           name: "hooks",
-          color: "pink-text-gradient",
+          color: "green-text-gradient",
         },
       ],
       image: notes,
@@ -201,7 +201,7 @@ const projects = [
       ],
       image: memesgenerator,
       live_demo_link: "https://gonza.uno/",
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/gonzagramaglia",
     },
     {
       name: "Gym Tracker",
@@ -214,12 +214,12 @@ const projects = [
         },
         {
           name: "css",
-          color: "pink-text-gradient",
+          color: "green-text-gradient",
         },
       ],
       image: gymtracker,
       live_demo_link: "https://gonza.uno/",
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/gonzagramaglia",
     },
   ];
   
