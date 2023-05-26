@@ -21,7 +21,7 @@ import threejs from "./tech/threejs.svg";
 
 import scrimba from "./company/scrimba.png";
 import freecodecamp from "./company/freecodecamp.png";
-import jsmastery from "./company/jsmastery.png"
+import jsmastery from "./company/jsmastery.png";
 
 import notes from "./notes.png";
 import memesgenerator from "./memesgenerator.png";
