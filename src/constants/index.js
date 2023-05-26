@@ -176,7 +176,7 @@ const projects = [
     {
       name: "Notes",
       description:
-        "Web application that allows users to add, modify and delete notes. It uses a localStorage to save the data.",
+        "Web application that allows users to add, modify and delete notes. It uses localStorage to save the data.",
       tags: [
         {
           name: "react",
