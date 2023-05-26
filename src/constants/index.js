@@ -139,7 +139,7 @@ import {
       company_name: "Scrimba",
       icon: scrimba,
       iconBg: "#0b0a25",
-      date: "May 2021 - May 2022",
+      date: "May 2023 - May 2023",
       points: [
         
       ],
@@ -149,7 +149,7 @@ import {
       company_name: "Scrimba",
       icon: scrimba,
       iconBg: "#0b0a25",
-      date: "Apr 2022 - Apr 2023",
+      date: "Apr 2023 - Apr 2023",
       points: [
 
       ],
