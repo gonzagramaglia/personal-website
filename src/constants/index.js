@@ -117,6 +117,7 @@ import {
   const skills = [
     {
       title: "Next JS",
+      link: "https://www.youtube.com/watch?v=wm5gMKuwSYk",
       company_name: "JavaScript Mastery",
       icon: jsmastery,
       iconBg: "#0b0a25",
@@ -127,6 +128,7 @@ import {
     },
     {
       title: "Frontend Developer Career Path",
+      link: "https://scrimba.com/learn/frontend",
       company_name: "Scrimba",
       icon: scrimba,
       iconBg: "#0b0a25",
@@ -137,6 +139,7 @@ import {
     },
     {
       title: "React Router v6",
+      link: "https://scrimba.com/learn/reactrouter6",
       company_name: "Scrimba",
       icon: scrimba,
       iconBg: "#0b0a25",
@@ -147,6 +150,7 @@ import {
     },
     {
       title: "TypeScript",
+      link: "https://scrimba.com/learn/typescript",
       company_name: "Scrimba",
       icon: scrimba,
       iconBg: "#0b0a25",
@@ -157,6 +161,7 @@ import {
     },
     {
       title: "JavaScript Programming",
+      link: "https://www.youtube.com/watch?v=jS4aFq5-91M",
       company_name: "freeCodeCamp",
       icon: freecodecamp,
       iconBg: "#0b0a25",

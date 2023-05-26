@@ -32,7 +32,10 @@ const SkillsCard = ({ skill }) => {
         </div>
       }
     >
-      <div>
+      <div 
+        onClick={() => window.open(skill.link, "_blank")}
+        className='cursor-pointer'
+      >
         <h3 className='text-white text-[24px] font-bold'>{skill.title}</h3>
         <p
           className='text-secondary text-[16px] font-semibold'
