@@ -14,6 +14,7 @@ import {
     next,
     scrimba,
     freecodecamp,
+    jsmastery,
     notes,
     memesgenerator,
     gymtracker,
@@ -116,8 +117,8 @@ import {
   const skills = [
     {
       title: "Next JS",
-      company_name: "freeCodeCamp",
-      icon: freecodecamp,
+      company_name: "JavaScript Mastery",
+      icon: jsmastery,
       iconBg: "#0b0a25",
       date: "June 2023",
       points: [
