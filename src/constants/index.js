@@ -134,28 +134,6 @@ import {
       ],
     },
     {
-      title: "React Router v6",
-      link: "https://scrimba.com/learn/reactrouter6",
-      company_name: "Scrimba",
-      icon: scrimba,
-      iconBg: "#0b0a25",
-      date: "May 2023 - May 2023",
-      points: [
-        
-      ],
-    },
-    {
-      title: "TypeScript",
-      link: "https://scrimba.com/learn/typescript",
-      company_name: "Scrimba",
-      icon: scrimba,
-      iconBg: "#0b0a25",
-      date: "Apr 2023 - Apr 2023",
-      points: [
-
-      ],
-    },
-    {
       title: "JavaScript Programming",
       link: "https://www.youtube.com/watch?v=jS4aFq5-91M",
       company_name: "freeCodeCamp",
