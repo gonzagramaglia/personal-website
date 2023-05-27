@@ -24,8 +24,7 @@ import freecodecamp from "./company/freecodecamp.png";
 import jsmastery from "./company/jsmastery.png";
 
 import notes from "./notes.png";
-import memesgenerator from "./memesgenerator.png";
-import gymtracker from "./gymtracker.png";
+import underconstruction from "./under-construction.png"
 
 export {
   logo,
@@ -51,6 +50,5 @@ export {
   freecodecamp,
   jsmastery,
   notes,
-  memesgenerator,
-  gymtracker,
+  underconstruction
 };

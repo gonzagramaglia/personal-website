@@ -88,7 +88,7 @@ const Works = () => {
           className='mt-3 text-secondary text-[17px] leading-[30px]'
         >
           Each project is briefly described with links to github repositories <br/>
-          and live demos in it.
+          and live demos in it
         </motion.p>
       </div>
 

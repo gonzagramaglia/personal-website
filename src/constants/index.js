@@ -16,8 +16,7 @@ import {
     freecodecamp,
     jsmastery,
     notes,
-    memesgenerator,
-    gymtracker,
+    underconstruction,
     threejs,
   } from "../assets";
   
@@ -128,7 +127,7 @@ import {
       company_name: "Scrimba",
       icon: scrimba,
       iconBg: "#0b0a25",
-      date: "March 2023 - June 2023",
+      date: "March 2023 - May 2023",
       points: [
         "HTML 5","CSS 3", "Responsive design","Advanced JavaScript", "Working with APIs","Advanced React JS"
       ],
@@ -150,7 +149,9 @@ const projects = [
     {
       name: "Notes",
       description:
-        "Web application that allows users to add, modify and delete notes. It uses localStorage to save the data.",
+        `Web application that allows users to add, 
+        modify and delete notes. It uses localStorage 
+        to save the data`,
       tags: [
         {
           name: "react",
@@ -164,6 +165,34 @@ const projects = [
       image: notes,
       live_demo_link: "https://notes.gonza.uno/",
       source_code_link: "https://github.com/gonzagramaglia/notes",
+    },
+    {
+      name: "Blog",
+      description:
+        `Web application under construction, 
+        but you can take a look at the repository 
+        and the live demo to see its current state`,
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "next",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "graphql",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwindcss",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: underconstruction,
+      live_demo_link: "https://blog.gonza.uno/",
+      source_code_link: "https://github.com/gonzagramaglia/blog",
     }
   ];
   
