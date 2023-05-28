@@ -213,16 +213,16 @@ const projects = [
           color: "blue-text-gradient",
         },
         {
-          name: "tailwindcss",
-          color: "green-text-gradient",
+          name: "graphql",
+          color: "pink-text-gradient",
         },
         {
           name: "sass",
           color: "green-text-gradient",
         },
         {
-          name: "graphql",
-          color: "pink-text-gradient",
+          name: "tailwindcss",
+          color: "green-text-gradient",
         }
       ],
       image: underconstruction,
