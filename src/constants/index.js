@@ -169,9 +169,8 @@ const projects = [
     {
       name: "Links",
       description:
-        `Web application under construction, 
-        but you can take a look at the repository 
-        and the live demo to see its current state`,
+        `Web application that is a clone of Linktree, 
+        but much cooler`,
       tags: [
         {
           name: "react",
@@ -182,11 +181,15 @@ const projects = [
           color: "blue-text-gradient",
         },
         {
+          name: "css-animations",
+          color: "pink-text-gradient",
+        },
+        {
           name: "tailwindcss",
           color: "pink-text-gradient",
         },
       ],
-      image: underconstruction,
+      image: "https://i.postimg.cc/sgsv7wXt/links-demo.png",
       live_demo_link: "https://links.gonza.uno/",
       source_code_link: "https://github.com/gonzagramaglia/links",
     },
