@@ -159,7 +159,7 @@ const projects = [
         },
         {
           name: "hooks",
-          color: "green-text-gradient",
+          color: "blue-text-gradient",
         },
       ],
       image: notes,
@@ -174,6 +174,10 @@ const projects = [
       tags: [
         {
           name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "hooks",
           color: "blue-text-gradient",
         },
         {
