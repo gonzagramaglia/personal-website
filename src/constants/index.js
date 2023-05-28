@@ -186,11 +186,11 @@ const projects = [
         },
         {
           name: "css-animations",
-          color: "pink-text-gradient",
+          color: "green-text-gradient",
         },
         {
           name: "tailwindcss",
-          color: "pink-text-gradient",
+          color: "green-text-gradient",
         },
       ],
       image: "https://i.postimg.cc/sgsv7wXt/links-demo.png",
@@ -213,13 +213,17 @@ const projects = [
           color: "blue-text-gradient",
         },
         {
-          name: "graphql",
+          name: "tailwindcss",
           color: "green-text-gradient",
         },
         {
-          name: "tailwindcss",
-          color: "pink-text-gradient",
+          name: "sass",
+          color: "green-text-gradient",
         },
+        {
+          name: "graphql",
+          color: "pink-text-gradient",
+        }
       ],
       image: underconstruction,
       live_demo_link: "https://blog.gonza.uno/",
