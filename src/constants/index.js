@@ -163,7 +163,7 @@ const projects = [
         },
       ],
       image: notes,
-      live_demo_link: "https://notes.gonza.uno/",
+      live_demo_link: "https://notes.gonza.gr/",
       source_code_link: "https://github.com/gonzagramaglia/notes",
     },
     {
@@ -194,7 +194,7 @@ const projects = [
         },
       ],
       image: "https://i.postimg.cc/sgsv7wXt/links-demo.png",
-      live_demo_link: "https://links.gonza.uno/",
+      live_demo_link: "https://links.gonza.gr/",
       source_code_link: "https://github.com/gonzagramaglia/links",
     },
     {
@@ -226,7 +226,7 @@ const projects = [
         }
       ],
       image: underconstruction,
-      live_demo_link: "https://blog.gonza.uno/",
+      live_demo_link: "https://blog.gonza.gr",
       source_code_link: "https://github.com/gonzagramaglia/blog",
     }
   ];
