@@ -198,6 +198,30 @@ const projects = [
       source_code_link: "https://github.com/gonzagramaglia/links",
     },
     {
+      name: "Album",
+      description:
+        `Web application under construction, 
+        but you can take a look at the repository 
+        and the live demo to see its current state`,
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "hooks",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "material-ui",
+          color: "green-text-gradient",
+        },
+      ],
+      image: underconstruction,
+      live_demo_link: "https://album.gonza.gr",
+      source_code_link: "https://github.com/gonzagramaglia/album",
+    },
+    {
       name: "Blog",
       description:
         `Web application under construction, 
