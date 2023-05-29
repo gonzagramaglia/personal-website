@@ -198,7 +198,7 @@ const projects = [
       source_code_link: "https://github.com/gonzagramaglia/links",
     },
     {
-      name: "Album",
+      name: "Social",
       description:
         `Web application under construction, 
         but you can take a look at the repository 
@@ -218,8 +218,8 @@ const projects = [
         },
       ],
       image: underconstruction,
-      live_demo_link: "https://album.gonza.gr",
-      source_code_link: "https://github.com/gonzagramaglia/album",
+      live_demo_link: "https://social.gonza.gr",
+      source_code_link: "https://github.com/gonzagramaglia/social",
     },
     {
       name: "Blog",
