@@ -200,9 +200,9 @@ const projects = [
     {
       name: "Social",
       description:
-        `Web application under construction, 
-        but you can take a look at the repository 
-        and the live demo to see its current state`,
+        `Web application that shows the UI interface of a social network. 
+        Features: darkMode, create and delete comments, open and close 
+        'menu' and 'create post' windows`,
       tags: [
         {
           name: "react",
@@ -217,7 +217,7 @@ const projects = [
           color: "green-text-gradient",
         },
       ],
-      image: underconstruction,
+      image: "https://i.postimg.cc/8c2zFQ9F/social-demo.png",
       live_demo_link: "https://social.gonza.gr",
       source_code_link: "https://github.com/gonzagramaglia/social",
     },
