@@ -265,6 +265,10 @@ const projects = [
           color: "blue-text-gradient",
         },
         {
+          name: "hooks",
+          color: "blue-text-gradient",
+        },
+        {
           name: "next",
           color: "blue-text-gradient",
         },
