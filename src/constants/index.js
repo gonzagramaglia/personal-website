@@ -224,9 +224,9 @@ const projects = [
     {
       name: "Product",
       description:
-        `Web application under construction, 
-        but you can take a look at the repository 
-        and the live demo to see its current state`,
+        `Web application that allows users to customize 
+        their 3D T-Shirt by choosing the color of it and 
+        adding a logo or texture from their computer`,
       tags: [
         {
           name: "react",
@@ -249,7 +249,7 @@ const projects = [
           color: "green-text-gradient",
         }
       ],
-      image: underconstruction,
+      image: "https://i.postimg.cc/0ybjjXHz/demo-product.png",
       live_demo_link: "https://product.gonza.gr",
       source_code_link: "https://github.com/gonzagramaglia/product",
     },
