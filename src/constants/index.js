@@ -225,8 +225,8 @@ const projects = [
       name: "Product",
       description:
         `Web application that allows users to customize 
-        their 3D T-Shirt by choosing the color of it and 
-        adding a logo or texture from their computer`,
+        a 3D T-Shirt by choosing the color of it and 
+        adding files from their computer`,
       tags: [
         {
           name: "react",
@@ -249,7 +249,7 @@ const projects = [
           color: "green-text-gradient",
         }
       ],
-      image: "https://i.postimg.cc/0ybjjXHz/demo-product.png",
+      image: "https://i.postimg.cc/0NHDBJM4/demo-product.png",
       live_demo_link: "https://product.gonza.gr",
       source_code_link: "https://github.com/gonzagramaglia/product",
     },
