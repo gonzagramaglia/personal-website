@@ -222,6 +222,38 @@ const projects = [
       source_code_link: "https://github.com/gonzagramaglia/social",
     },
     {
+      name: "Product",
+      description:
+        `Web application under construction, 
+        but you can take a look at the repository 
+        and the live demo to see its current state`,
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "hooks",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "next",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "threejs",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "tailwindcss",
+          color: "green-text-gradient",
+        }
+      ],
+      image: underconstruction,
+      live_demo_link: "https://product.gonza.gr",
+      source_code_link: "https://github.com/gonzagramaglia/product",
+    },
+    {
       name: "Blog",
       description:
         `Web application under construction, 
