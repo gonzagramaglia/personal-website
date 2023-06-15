@@ -222,7 +222,7 @@ const projects = [
       source_code_link: "https://github.com/gonzagramaglia/social",
     },
     {
-      name: "Product",
+      name: "T-Shirt",
       description:
         `Web application that allows users to customize 
         a 3D T-Shirt by choosing the color of it and 
