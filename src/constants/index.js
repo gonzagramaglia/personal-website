@@ -114,7 +114,7 @@ import {
   
   const skills = [
     {
-      title: "Redux",
+      title: "Redux & Jest",
       link: "https://egghead.io/courses/fundamentals-of-redux-course-from-dan-abramov-bd5cc867",
       company_name: "egghead",
       icon: egghead,
@@ -125,7 +125,7 @@ import {
       ],
     },
     {
-      title: "Next JS",
+      title: "Next JS & Tailwind",
       link: "https://www.youtube.com/watch?v=wm5gMKuwSYk",
       company_name: "JavaScript Mastery",
       icon: jsmastery,
