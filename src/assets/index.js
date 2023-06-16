@@ -19,6 +19,7 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
+import egghead from "./company/egghead.png"
 import scrimba from "./company/scrimba.png";
 import freecodecamp from "./company/freecodecamp.png";
 import jsmastery from "./company/jsmastery.png";
@@ -46,6 +47,7 @@ export {
   tailwind,
   typescript,
   threejs,
+  egghead,
   scrimba,
   freecodecamp,
   jsmastery,

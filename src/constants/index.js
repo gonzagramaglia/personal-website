@@ -12,6 +12,7 @@ import {
     git,
     figma,
     next,
+    egghead,
     scrimba,
     freecodecamp,
     jsmastery,
@@ -19,6 +20,8 @@ import {
     underconstruction,
     threejs,
   } from "../assets";
+
+  
   
   export const navLinks = [
     {
@@ -114,7 +117,7 @@ import {
       title: "Redux",
       link: "https://egghead.io/courses/fundamentals-of-redux-course-from-dan-abramov-bd5cc867",
       company_name: "egghead",
-      icon: jsmastery,
+      icon: egghead,
       iconBg: "#0b0a25",
       date: "July 2023",
       points: [
