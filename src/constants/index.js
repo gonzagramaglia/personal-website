@@ -268,28 +268,36 @@ const projects = [
       source_code_link: "https://github.com/gonzagramaglia/product",
     },
     {
-      name: "ChatGPT",
+      name: "Prompts",
       description:
         `Web application under construction, 
         but you can take a look at the repository 
         and the live demo to see its current state`,
       tags: [
         {
-          name: "javascript",
+          name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "node.js",
+          name: "hooks",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "next",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "mongoDB",
           color: "pink-text-gradient",
         },
         {
-          name: "openai",
-          color: "pink-text-gradient",
+          name: "tailwindcss",
+          color: "green-text-gradient",
         }
       ],
       image: underconstruction,
-      live_demo_link: "https://chatgpt.gonza.gr",
-      source_code_link: "https://github.com/gonzagramaglia/chatgpt",
+      live_demo_link: "https://prompts.gonza.gr",
+      source_code_link: "https://github.com/gonzagramaglia/prompts",
     },
     {
       name: "Blog",
