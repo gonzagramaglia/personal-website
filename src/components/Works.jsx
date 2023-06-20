@@ -1,5 +1,5 @@
 import React from "react";
-// import { Tilt } from "react-tilt";
+import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
@@ -19,14 +19,7 @@ const ProjectCard = ({
 }) => {
   return (
     <motion.div className='bg-tertiary p-5 rounded-2xl w-[90%] sm:w-[360px]' >
-      {/* <Tilt
-        options={{
-          max: 20,
-          scale: 1.08,
-          speed: 100,
-        }}
-        className='bg-tertiary p-5 rounded-2xl w-full sm:w-[360px]'
-      > */}
+     
         <div 
           onClick={() => window.open(live_demo_link, "_blank")}
           className='cursor-pointer relative w-full h-[230px]'
@@ -50,7 +43,7 @@ const ProjectCard = ({
             </div>
           </div>
         </div>
-
+        
         <div 
           onClick={() => window.open(live_demo_link, "_blank")}
           className='cursor-pointer mt-5'
@@ -69,7 +62,6 @@ const ProjectCard = ({
             </p>
           ))}
         </div>
-      {/* </Tilt> */}
     </motion.div>
   );
 };
@@ -90,7 +82,15 @@ const Works = () => {
 
       <div className='text-left mt-20 flex flex-wrap gap-7 justify-center'>
         {projects.map((project, index) => (
-          <ProjectCard key={`project-${index}`} index={index} {...project} />
+           <Tilt
+           options={{
+             max: 20,
+             scale: 1,
+             speed: 100,
+           }}
+          >
+            <ProjectCard key={`project-${index}`} index={index} {...project} />
+          </Tilt>
         ))}
       </div>
     </div>

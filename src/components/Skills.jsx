@@ -74,10 +74,10 @@ const Skills = () => {
       <div className='mt-20 flex flex-col'>
         <VerticalTimeline>
           {skills.map((skill, index) => (
-            <SkillsCard
-              key={`skill-${index}`}
-              skill={skill}
-            />
+              <SkillsCard
+                key={`skill-${index}`}
+                skill={skill}
+              />
           ))}
         </VerticalTimeline>
       </div>
