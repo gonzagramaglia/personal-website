@@ -42,7 +42,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] leading-[30px]'
       >
-        I am a web developer from Córdoba, Argentina,<br/>
+        Web developer from Córdoba, Argentina,<br/>
         who loves challenging projects and wants to 
         <br/> keep leveling up his coding skills
       </motion.p>
