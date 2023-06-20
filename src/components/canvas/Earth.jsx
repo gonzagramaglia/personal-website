@@ -1,4 +1,4 @@
-import React, { Suspense } from "react";
+import React, { useEffect, Suspense } from "react";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 
@@ -13,6 +13,7 @@ const Earth = () => {
 };
 
 const EarthCanvas = () => {
+
   return (
     <Canvas
       shadows
@@ -25,14 +26,9 @@ const EarthCanvas = () => {
         far: 200,
         position: [-4, 3, 6],
       }}
+      data-testid="canvas"
     >
       <Suspense fallback={<CanvasLoader />}>
-        <OrbitControls
-          autoRotate
-          enableRotate={false}
-          enablePan={false}
-          enableZoom={false}
-        />
         <Earth />
 
         <Preload all />
