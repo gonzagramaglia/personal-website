@@ -1,5 +1,5 @@
 import React from "react";
-import { Tilt } from "react-tilt";
+// import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
@@ -18,15 +18,15 @@ const ProjectCard = ({
   source_code_link,
 }) => {
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
-      <Tilt
+    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)} className='bg-tertiary p-5 rounded-2xl w-[80%] sm:w-[360px]' >
+      {/* <Tilt
         options={{
           max: 20,
           scale: 1.08,
           speed: 100,
         }}
         className='bg-tertiary p-5 rounded-2xl w-full sm:w-[360px]'
-      >
+      > */}
         <div 
           onClick={() => window.open(live_demo_link, "_blank")}
           className='cursor-pointer relative w-full h-[230px]'
@@ -69,7 +69,7 @@ const ProjectCard = ({
             </p>
           ))}
         </div>
-      </Tilt>
+      {/* </Tilt> */}
     </motion.div>
   );
 };
