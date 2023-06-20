@@ -83,12 +83,14 @@ const Works = () => {
       <div className='text-left mt-20 flex flex-wrap gap-7 justify-center'>
         {projects.map((project, index) => (
            <Tilt
-           options={{
-             max: 20,
-             scale: 1,
-             speed: 100,
-           }}
-          >
+              options={{
+                max: 20,
+                scale: 1,
+                speed: 100,
+                reverse: true,
+                perspective: 2000
+              }}
+            >
             <ProjectCard key={`project-${index}`} index={index} {...project} />
           </Tilt>
         ))}
