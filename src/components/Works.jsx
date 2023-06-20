@@ -18,7 +18,7 @@ const ProjectCard = ({
   source_code_link,
 }) => {
   return (
-    <motion.div className='bg-tertiary p-5 rounded-2xl w-[80%] sm:w-[360px]' >
+    <motion.div className='bg-tertiary p-5 rounded-2xl w-[90%] sm:w-[360px]' >
       {/* <Tilt
         options={{
           max: 20,
