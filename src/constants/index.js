@@ -114,23 +114,12 @@ import {
   
   const skills = [
     {
-      title: "Redux, TypeScript & Jest",
-      link: "https://egghead.io/courses/fundamentals-of-redux-course-from-dan-abramov-bd5cc867",
-      company_name: "egghead",
-      icon: egghead,
+      title: "JavaScript Programming",
+      link: "https://www.youtube.com/watch?v=jS4aFq5-91M",
+      company_name: "freeCodeCamp",
+      icon: freecodecamp,
       iconBg: "#0b0a25",
-      date: "July 2023",
-      points: [
-
-      ],
-    },
-    {
-      title: "Next.js 13, TailwindCSS & Material UI",
-      link: "https://www.youtube.com/watch?v=wm5gMKuwSYk",
-      company_name: "JavaScript Mastery",
-      icon: jsmastery,
-      iconBg: "#0b0a25",
-      date: "June 2023",
+      date: "Feb 2023 - Feb 2023",
       points: [
 
       ],
@@ -147,16 +136,16 @@ import {
       ],
     },
     {
-      title: "JavaScript Programming",
-      link: "https://www.youtube.com/watch?v=jS4aFq5-91M",
-      company_name: "freeCodeCamp",
-      icon: freecodecamp,
+      title: "Next.js 13, TailwindCSS & Material UI",
+      link: "https://www.youtube.com/watch?v=wm5gMKuwSYk",
+      company_name: "JavaScript Mastery",
+      icon: jsmastery,
       iconBg: "#0b0a25",
-      date: "Feb 2023 - Feb 2023",
+      date: "June 2023",
       points: [
 
       ],
-    },
+    }
   ];
 
 const projects = [
