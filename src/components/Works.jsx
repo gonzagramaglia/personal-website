@@ -18,7 +18,7 @@ const ProjectCard = ({
   source_code_link,
 }) => {
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)} className='bg-tertiary p-5 rounded-2xl w-[80%] sm:w-[360px]' >
+    <motion.div className='bg-tertiary p-5 rounded-2xl w-[80%] sm:w-[360px]' >
       {/* <Tilt
         options={{
           max: 20,
