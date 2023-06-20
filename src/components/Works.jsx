@@ -76,9 +76,9 @@ const ProjectCard = ({
 
 const Works = () => {
   return (
-    <>
-      <motion.div variants={textVariant()} className="text-center">
-        <span className={`${styles.sectionSubText} `}><span className="font-bold">Projects say more</span> than words</span>
+    <div className="text-center">
+      <motion.div>
+        <span className={`${styles.sectionSubText}`}><span className="font-bold">Projects say more</span> than words</span>
         <h2 className={`${styles.sectionHeadText}`}>See my best works</h2>
         <p
           className='mt-3 text-secondary text-[17px] leading-[30px]'
@@ -93,7 +93,7 @@ const Works = () => {
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
       </div>
-    </>
+    </div>
   );
 };
 

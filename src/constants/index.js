@@ -29,12 +29,12 @@ import {
       title: "About",
     },
     {
-      id: "skills",
-      title: "Skills",
-    },
-    {
       id: "works",
       title: "Works",
+    },
+    {
+      id: "skills",
+      title: "Skills",
     },
     {
       id: "contact",
