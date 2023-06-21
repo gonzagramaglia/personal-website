@@ -18,7 +18,7 @@ const ProjectCard = ({
   source_code_link,
 }) => {
   return (
-    <motion.div className='bg-tertiary p-5 rounded-2xl w-[90%] sm:w-[360px]' >
+    <motion.div className='bg-tertiary p-5 rounded-2xl w-[100%] sm:w-[360px]' >
      
         <div 
           onClick={() => window.open(live_demo_link, "_blank")}
@@ -70,17 +70,17 @@ const Works = () => {
   return (
     <div className="text-center">
       <motion.div>
-        <span className={`${styles.sectionSubText}`}><span className="font-bold">Projects say more</span> than words</span>
+        {/* <span className={`${styles.sectionSubText}`}><span className="font-bold">Projects say more</span> than words</span> */}
         <h2 className={`${styles.sectionHeadText}`}>See my best works</h2>
         <p
-          className='mt-3 text-secondary text-[17px] leading-[30px]'
+          className='mt-3 text-secondary text-[17px] leading-[30px] mx-auto w-[83%] md:w-[40%]'
         >
-          Each project is briefly described with links to github repositories <br/>
+          Each project is briefly described with links to github repositories
           and live demos in it
         </p>
       </motion.div>
 
-      <div className='text-left mt-20 flex flex-wrap gap-7 justify-center'>
+      <div className='text-left mt-20 mx-auto w-[85%] md:w-[100%] flex flex-wrap gap-7 justify-center'>
         {projects.map((project, index) => (
            <Tilt
               options={{
