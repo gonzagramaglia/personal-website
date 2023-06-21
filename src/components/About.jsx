@@ -10,7 +10,7 @@ import { fadeIn, textVariant } from "../utils/motion";
 const TechCard = ({ index, name, icon }) => (
   <Tilt className='w-[55px] sm:w-[95px]' options={{scale: 1, max: 8}}>
     <motion.div
-      variants={fadeIn("right", "spring", index * 0.5, 0.75)}
+      variants={fadeIn("right", "spring", index * 0.4, 0.5)}
       className='w-full p-[1px] rounded-[20px]'
     >
       <div
