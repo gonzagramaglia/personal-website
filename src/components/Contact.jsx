@@ -66,11 +66,11 @@ const Contact = () => {
 
   return (
     <div
-      className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}
+      className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden `}
     >
       <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}
-        className='flex-[0.75] bg-black-100 p-8 rounded-2xl'
+        className='flex-[0.75] bg-black-100 p-8 rounded-2xl xs:w-[90%] md:w-[80%] lg:w-[70%] w-[100%] mx-auto'
       >
         <h3 className={styles.sectionHeadText}>Let's talk</h3>
         <p className={styles.sectionSubText}>By email or <span className="font-bold text-[#60d9fa] cursor-pointer" onClick={() => {window.open("https://www.linkedin.com/in/gonzagramaglia", "_blank");}}>LinkedIn</span></p>
