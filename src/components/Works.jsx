@@ -71,7 +71,7 @@ const Works = () => {
     <div className="text-center">
       <motion.div>
         {/* <span className={`${styles.sectionSubText}`}><span className="font-bold">Projects say more</span> than words</span> */}
-        <h2 className={`${styles.sectionHeadText}`}>Best works</h2>
+        <h2 className={`${styles.sectionHeadText} mt-6`}>Best works</h2>
         <p
           className='mt-3 text-secondary text-[17px] leading-[30px] mx-auto w-[83%] md:w-[40%]'
         >
@@ -80,7 +80,7 @@ const Works = () => {
         </p>
       </motion.div>
 
-      <div className='text-left mt-20 mx-auto w-[95%] md:w-[100%] flex flex-wrap gap-7 justify-center'>
+      <div className='text-left mt-20 mx-auto w-[100%] flex flex-wrap gap-7 justify-center'>
         {projects.map((project, index) => (
            <Tilt
               options={{
