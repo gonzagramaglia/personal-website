@@ -1,10 +1,15 @@
 import {
     gem,
     javascript,
-    typescript,
     html,
-    chatgpt,
-    vscode,
+    htmlwhite,
+    csswhite,
+    jswhite,
+    reactwhite,
+    nextwhite,
+    gitwhite,
+    tailwindwhite,
+    framermotionwhite,
     css,
     reactjs,
     tailwind,
@@ -60,56 +65,36 @@ import {
   const technologies = [
     {
       name: "HTML 5",
-      icon: html,
+      icon: htmlwhite,
     },
     {
       name: "CSS 3",
-      icon: css,
+      icon: csswhite,
     },
     {
       name: "JavaScript",
-      icon: javascript,
-    },
-    {
-      name: "TypeScript",
-      icon: typescript,
+      icon: jswhite,
     },
     {
       name: "React JS",
-      icon: reactjs,
-    },
-    {
-      name: "ChatGPT",
-      icon: chatgpt,
-    },
-    {
-      name: "VSCode",
-      icon: vscode,
-    },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
+      icon: reactwhite,
     },
     {
       name: "Next JS",
-      icon: next,
+      icon: nextwhite,
     },
     {
-      name: "Three JS",
-      icon: threejs,
+      name: "Git",
+      icon: gitwhite,
     },
     {
-      name: "git",
-      icon: git,
+      name: "Tailwind CSS",
+      icon: tailwindwhite,
     },
     {
-      name: "Figma",
-      icon: figma,
-    },
-    {
-      name: "Firebase",
-      icon: firebase,
-    },
+      name: "Framer Motion",
+      icon: framermotionwhite,
+    }
   ];
   
   const skills = [

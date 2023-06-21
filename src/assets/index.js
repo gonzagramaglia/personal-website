@@ -5,6 +5,15 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
+import htmlwhite from "./tech/html-white.png";
+import csswhite from "./tech/css-white.png";
+import jswhite from "./tech/js-white.png";
+import reactwhite from "./tech/react-white.png";
+import nextwhite from "./tech/next-white.png";
+import tailwindwhite from "./tech/tailwind-white.png";
+import gitwhite from "./tech/git-white.png";
+import framermotionwhite from "./tech/framer-motion-white.png";
+
 import chatgpt from "./tech/chatgpt.png";
 import vscode from "./tech/vscode.png"
 import css from "./tech/css.png";
@@ -39,6 +48,14 @@ export {
   css,
   firebase,
   figma,
+  htmlwhite,
+  csswhite,
+  jswhite,
+  tailwindwhite,
+  nextwhite,
+  reactwhite,
+  gitwhite,
+  framermotionwhite,
   git,
   html,
   javascript,
