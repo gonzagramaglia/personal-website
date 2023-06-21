@@ -80,7 +80,7 @@ const Works = () => {
         </p>
       </motion.div>
 
-      <div className='text-left mt-20 mx-auto w-[85%] md:w-[100%] flex flex-wrap gap-7 justify-center'>
+      <div className='text-left mt-20 mx-auto w-[95%] md:w-[100%] flex flex-wrap gap-7 justify-center'>
         {projects.map((project, index) => (
            <Tilt
               options={{
