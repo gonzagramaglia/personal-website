@@ -63,12 +63,12 @@ const Skills = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} text-center`}>
-          What I have done <span className="font-bold">so far</span>
-        </p>
         <h2 className={`${styles.sectionHeadText} text-center`}>
           Skills unlocked
         </h2>
+        <p className={`${styles.sectionSubText} text-center`}>
+          What I have done <span className="font-bold">so far</span>
+        </p>
       </motion.div>
 
       <div className='mt-20 flex flex-col'>
