@@ -71,7 +71,7 @@ const Works = () => {
     <div className="text-center">
       <motion.div>
         {/* <span className={`${styles.sectionSubText}`}><span className="font-bold">Projects say more</span> than words</span> */}
-        <h2 className={`${styles.sectionHeadText}`}>See my best works</h2>
+        <h2 className={`${styles.sectionHeadText}`}>Best works</h2>
         <p
           className='mt-3 text-secondary text-[17px] leading-[30px] mx-auto w-[83%] md:w-[40%]'
         >
