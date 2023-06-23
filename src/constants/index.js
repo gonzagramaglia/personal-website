@@ -37,10 +37,10 @@ import {
       id: "works",
       title: "Works",
     },
-    {
-      id: "skills",
-      title: "Skills",
-    },
+    // {
+    //   id: "skills",
+    //   title: "Skills",
+    // },
     {
       id: "contact",
       title: "Contact",
@@ -272,42 +272,6 @@ const projects = [
       image: underconstruction,
       live_demo_link: "https://prompts.gonza.gr",
       source_code_link: "https://github.com/gonzagramaglia/prompts",
-    },
-    {
-      name: "Blog",
-      description:
-        `Web application under construction, 
-        but you can take a look at the repository 
-        and the live demo to see its current state`,
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "hooks",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "next",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "graphql",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "sass",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwindcss",
-          color: "green-text-gradient",
-        }
-      ],
-      image: underconstruction,
-      live_demo_link: "https://blog.gonza.gr",
-      source_code_link: "https://github.com/gonzagramaglia/blog",
     }
   ];
   
