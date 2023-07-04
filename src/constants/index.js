@@ -135,6 +135,38 @@ import {
 
 const projects = [
     {
+      name: "TwitHub",
+      description:
+        `Web application that allows users to
+        login with their github account and 
+        add tweets to the public timeline`,
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "hooks",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "next",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "tailwindcss",
+          color: "green-text-gradient",
+        },
+        {
+          name: "firebase",
+          color: "red-text-gradient",
+        },
+      ],
+      image: underconstruction,
+      live_demo_link: "https://twithub.gonza.works/",
+      source_code_link: "https://github.com/gonzagramaglia/twithub",
+    },
+    {
       name: "Notes",
       description:
         `Web application that allows users to add, 
@@ -151,7 +183,7 @@ const projects = [
         },
       ],
       image: notes,
-      live_demo_link: "https://notes.gonza.gr/",
+      live_demo_link: "https://notes.gonza.works/",
       source_code_link: "https://github.com/gonzagramaglia/notes",
     },
     {
@@ -182,7 +214,7 @@ const projects = [
         },
       ],
       image: "https://i.postimg.cc/sgsv7wXt/links-demo.png",
-      live_demo_link: "https://links.gonza.gr/",
+      live_demo_link: "https://links.gonza.works/",
       source_code_link: "https://github.com/gonzagramaglia/links",
     },
     {
@@ -206,7 +238,7 @@ const projects = [
         },
       ],
       image: "https://i.postimg.cc/8c2zFQ9F/social-demo.png",
-      live_demo_link: "https://social.gonza.gr",
+      live_demo_link: "https://social.gonza.works",
       source_code_link: "https://github.com/gonzagramaglia/social",
     },
     {
@@ -238,7 +270,7 @@ const projects = [
         }
       ],
       image: "https://i.postimg.cc/0NHDBJM4/demo-product.png",
-      live_demo_link: "https://product.gonza.gr",
+      live_demo_link: "https://product.gonza.works",
       source_code_link: "https://github.com/gonzagramaglia/product",
     },
     {
@@ -270,7 +302,7 @@ const projects = [
         }
       ],
       image: underconstruction,
-      live_demo_link: "https://prompts.gonza.gr",
+      live_demo_link: "https://prompts.gonza.works",
       source_code_link: "https://github.com/gonzagramaglia/prompts",
     }
   ];
