@@ -138,8 +138,8 @@ const projects = [
       name: "TwitHub",
       description:
         `Web application that allows users to
-        login with their github account and 
-        add tweets to the public timeline`,
+        login with github and add tweets to 
+        the timeline`,
       tags: [
         {
           name: "react",
@@ -162,7 +162,7 @@ const projects = [
           color: "pink-text-gradient",
         },
       ],
-      image: "https://i.postimg.cc/yd4Qv2nn/twithub.png",
+      image: "https://i.postimg.cc/WbLZtTz5/twithub.png",
       live_demo_link: "https://twithub.gonza.works/",
       source_code_link: "https://github.com/gonzagramaglia/twithub",
     },
