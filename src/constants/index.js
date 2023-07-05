@@ -159,10 +159,10 @@ const projects = [
         },
         {
           name: "firebase",
-          color: "red-text-gradient",
+          color: "pink-text-gradient",
         },
       ],
-      image: underconstruction,
+      image: "https://i.postimg.cc/yd4Qv2nn/twithub.png",
       live_demo_link: "https://twithub.gonza.works/",
       source_code_link: "https://github.com/gonzagramaglia/twithub",
     },
@@ -273,38 +273,38 @@ const projects = [
       live_demo_link: "https://product.gonza.works",
       source_code_link: "https://github.com/gonzagramaglia/product",
     },
-    {
-      name: "Prompts",
-      description:
-        `Web application under construction, 
-        but you can take a look at the repository 
-        and the live demo to see its current state`,
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "hooks",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "next",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "mongoDB",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "tailwindcss",
-          color: "green-text-gradient",
-        }
-      ],
-      image: underconstruction,
-      live_demo_link: "https://prompts.gonza.works",
-      source_code_link: "https://github.com/gonzagramaglia/prompts",
-    }
+    // {
+    //   name: "Prompts",
+    //   description:
+    //     `Web application under construction, 
+    //     but you can take a look at the repository 
+    //     and the live demo to see its current state`,
+    //   tags: [
+    //     {
+    //       name: "react",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "hooks",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "next",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "mongoDB",
+    //       color: "pink-text-gradient",
+    //     },
+    //     {
+    //       name: "tailwindcss",
+    //       color: "green-text-gradient",
+    //     }
+    //   ],
+    //   image: underconstruction,
+    //   live_demo_link: "https://prompts.gonza.works",
+    //   source_code_link: "https://github.com/gonzagramaglia/prompts",
+    // }
   ];
   
   export { services, technologies, skills, projects };
